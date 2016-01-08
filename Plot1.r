@@ -1,5 +1,5 @@
 #Set working directory, if needed
- #setwd("C:\\Scratch\\_coursera\\Class4")
+ #setwd("C:\\Scratch\\_coursera\\Class4\\Assignment1")
 
 #Install package and download data. Uncomment to execute
  # install.packages("downloader")
@@ -29,7 +29,7 @@
   #Set Output Device
   png("plot1.png", width = 480, height = 480)
   #Make Histogram
-  hist(HHPC$Global_active_power, breaks=12, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", cex.axis=.75, cex.lab=.75, cex.main=.75)
+  hist(HHPC$Global_active_power, breaks=12, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
   #Close file
   dev.off()
   
